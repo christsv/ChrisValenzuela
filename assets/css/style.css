@@ -1,41 +1,35 @@
 
-
-
-
-/* This is to create a sticky navbar! Style the navbar */
-#navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  /* Navbar links */
-  #navbar a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
-
-
   /**********************************/
+
+  #aboutMeName{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+  }
+
+  #aboutMeInfo{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+  }
+
+  #aboutMeSection{
+   background:black;
+   color:white;
+   border-radius: 150px;
+
+
+  }
+
+  #section12{
+      opacity:.9;
+      background-image:url("../images/background1.jpg");
+      background-repeat:none;
+      background-attachment:fixed;
+      background-size:cover;
+      position:relative;
+      height:25vh;
+      width: 100vw;
+  }
+
 
   h1{
       text-align:center;
@@ -43,11 +37,20 @@
 
 
 
-  #skillsContainer{
-      border: 10px solid;
-      border-color:black;
-      background:yellow;
+  #skillsSection{
+    border: 3px solid black;
+    background:#FEF358;
+    border-radius:150px;
   }
+
+  #projectSection{
+    background:black;
+    color:white;
+    border-radius: 150px;
+ 
+ 
+   }
+ 
 
 
   #bottom2{
@@ -69,3 +72,15 @@
     margin:150px auto;
 
 }
+
+#aboutMePic{
+    height: 500px;
+    width: 300px;
+
+}
+
+#logos{
+    text-align:center;
+
+}
+
