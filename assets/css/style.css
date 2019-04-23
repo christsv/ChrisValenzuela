@@ -1,35 +1,70 @@
 
   /**********************************/
 
-  #aboutMeName{
+  #aboutMeRows{
+      font-family:'Source Code Pro', monospace;
+      padding:100px;
+  }
+  #abouth1, #homeName, #sayhi{
     font-family: 'Source Code Pro', monospace;
-    font-size: 30px;
+    font-size: 50px;
+    text-align:left;
   }
 
-  #aboutMeInfo{
+  #fontish{
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
   }
 
-  #aboutMeSection{
-   background:black;
-   color:white;
-   border-radius: 150px;
-
+  #sayhi{
+      text-align: left;
 
   }
-
   #section12{
       opacity:.9;
+      /**
       background-image:url("../images/background1.jpg");
       background-repeat:none;
       background-attachment:fixed;
       background-size:cover;
+      **/
+      background:white;
       position:relative;
       height:25vh;
       width: 100vw;
   }
 
+  #quotes{
+    background:white;
+    height:25vh;
+  }
+
+  #section1{
+
+    background-image:url("../images/background1.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    background-size:cover;
+    height:25vh;
+    width: 100vw;
+}
+
+
+#aboutMeSection{
+    background:white;
+    border: 1px solid black;
+}
+
+#home{
+    opacity:.85;
+    /**background-image: url("../images/background1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;**/
+    background:#36454F;
+    border: 1px solid;
+}
 
   h1{
       text-align:center;
@@ -38,20 +73,35 @@
 
 
   #skillsSection{
-    border: 3px solid black;
-    background:#FEF358;
-    border-radius:150px;
+    border: 1px solid black;
+    background:white;
+    font-family: 'Source Code Pro', monospace;
+    padding:100px;
+
+
+  
   }
 
+  #homeSection{
+    background:white;
+    color:black;
+    opacity: .85;
+    border-radius:1000px;
+    padding:100px;
+    overflow:auto;
+    border:1px solid;
+  }
+
+
   #projectSection{
-    background:black;
-    color:white;
-    border-radius: 150px;
- 
- 
+    background:lightyellow;
+    border: 1px solid;
+    font-family: 'Source Code Pro', monospace;
    }
  
-
+   #projectFiles{
+    padding:50px;
+   }
 
   #bottom2{
     text-align:center;
@@ -73,14 +123,47 @@
 
 }
 
-#aboutMePic{
-    height: 500px;
+#homePic{
+    height: 400px;
     width: 300px;
 
 }
 
+#symbols{
+    font-size:50px;
+}
 #logos{
-    text-align:center;
+    text-align:left;
+    size: 40px;;
 
 }
 
+#buttonColor{
+    text-align: center;
+    background:lightyellow;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+
+}
+
+#email{
+    font-family: 'Source Code Pro', monospace;
+    font-size:13px;
+    color:black;
+}
+#emailLink{
+    font-family: 'Source Code Pro', monospace;
+    color:black;
+}
+
+#contactSection2{
+    background: lightyellow; 
+    padding: 25px;
+    line-height: 15px;
+    border:1px solid;
+}
+
+#center{
+    margin:auto;
+    max-width: 300px;
+}

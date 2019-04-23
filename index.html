@@ -15,27 +15,37 @@
 
     <!-- BootStrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
     <!-- Logos -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    
+    <!-- download symbol-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
+    <!-- for Collapse-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- ajax-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
-<body id="section12">
+<body >
 
-        
+      
     <nav class = "sticky-top" id = "navbar">
           <div class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <a class="navbar-brand" href="#">Chris Valenzuela | Web Developer</a>
+                  <a class="navbar-brand" href="#">CV</a>
                   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#aboutMe">About</a>
@@ -54,56 +64,69 @@
                             <a class="nav-link" href="#contacts">Contact</a>
                     </li>
                   </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
                 </div>
             </div>
     </nav>
-    <div class="container-fluid" id="section12">  </div>
-  
 
-    <div class="container-fluid" id="aboutMeSection">
+
+    <div class="container-fluid" id="home">
         <!-- this name is needed so that when navbar is clicked it willl jump to this container-->
-        <a name="aboutMe"></a>
-                
-        <div class="row">
-            <div class="col">
-                <br><br><br><br><br><br><br><br>
-                    <h1 id="aboutMeName">Chris Valenzuela</h1>
-                    <h1 id="aboutMeName">Web Developer</h1>
+        <a name="home"></a>
+        <br><br><br>
+        <div id="homeSection" class="row">
+         
+                <div class="col">
+                <br><br>
+                    <h1 id="homeName">Chris Valenzuela</h1>
+                    <h1 id="homeName">Web Developer</h1>
+                    <div id="sayhi"><a  href="#aboutMe">say hi!</a></div>
                     <hr >
-                    <div id="logos">
+                    <div >
                     
-                        <h1>
+                        <h1 id="logos">
                             <a href="https://www.w3schools.com/html/" class="fa fa-facebook"></a>
-                            <a href="https://wwww.instagram.com/chrissvalenzuela/" target="_blank" class="fa fa-instagram"></a>
+                            <a href="https://www.instagram.com/chrissvalenzuela/" target="_blank" class="fa fa-instagram"></a>
                             <a href="#" class="fa fa-linkedin"></a>
                             <a href="https://wwww.github.com/christsv" class="fa fa-github"></a>          
-                        </h1>              
-                        
+                        </h1>         
                     </div>
-            </div>
-            <div class="col">
-                <br>
-                    <img id="aboutMePic" src = "./assets/images/shefie2.png" class="rounded mx-auto d-block" alt = "aboutMePic">
-                <br><br>
-            </div>
-            <div id="aboutMeInfo" class="col">
-                    <br>
-                    <h1 >About Me</h1>
-                    aLorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui, aspernatur dignissimos asperiores consectetur distinctio a, laboriosam impedit molestias laudantium, voluptates consequuntur ea quis maiores cum veritatis rem nam porro.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veniam neque doloribus vitae modi deleniti optio, unde commodi, cupiditate voluptatum adipisci porro voluptatibus? Perspiciatis nisi, dolorum ducimus enim facilis doloribus?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam numquam aperiam incidunt doloribus necessitatibus amet maxime eius perferendis asperiores ratione, nam minus laudantium accusamus voluptates? Eveniet eos tenetur consectetur aspernatur.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi ad totam vel expedita aliquid nihil culpa quis voluptates facere! Nisi corrupti est rem tempore iure quam voluptatem accusamus a eligendi!
-               
-            </div>
-        </div>       
+                </div>
+                <div class="col">
+                    <img id="homePic" src = "./assets/images/shefie2.png" class="rounded mx-auto d-block" alt = "homePic">
+
+                </div>
+        </div>
+        <br><br><br>       
     </div>
 
-    <div class="container-fluid" id="section12">  </div>
-  
+
+
+
+    <div class="container-fluid" id="aboutMeSection">
+        <a name="aboutMe"></a>
+        <div id="aboutMeRows" class="row">   
+            <div class="col-md-9 offset-md-1"> 
+                <h1 id="abouth1"> Hello,</h1>
+                <p>hello Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui mollitia vero repudiandae, saepe aut repellendus placeat voluptas quos sunt et voluptatem necessitatibus distinctio aperiam nam in aliquid debitis magni?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit, corporis blanditiis optio error consequuntur ipsum voluptatem iste placeat, ex, obcaecati id ad. Dicta reiciendis aut consequuntur aliquid ipsa hic!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus possimus labore, totam enim sint, cum laudantium, modi aliquid numquam provident delectus atque! Omnis maxime perspiciatis debitis, porro architecto similique ut!label
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam hic quidem ex porro magnam, fugiat laboriosam harum assumenda consequatur voluptates sapiente deserunt sed. Laboriosam quasi tempora ducimus quos numquam velit.
+                </p>
+                
+                <div class="aboutMeButtons">
+                    <a href="./assets/files/Chris Resume Web Developer pdf.pdf" target="_blank" class="md1-button md1-js-button">
+                        <i class="zmdi zmdi-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
 
     <div class="container-fluid" id="skillsSection">
         
@@ -111,109 +134,179 @@
             <div id="skillsContainer">
             <div class="container">
 
-                <h1>Skill</h1>
+                <h1>Skills</h1>
                 
+        <div id="accordion">
 
+                <div id="buttonColor"class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button  class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Front End
+                      </button>
+                    </h5>
+                  </div>
+                  
+              
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
                             <div class = "row">
-                                <div class ="animatedParent col">
-                                        <div class="animated bounceInLeft">
-                                    <span><i class="devicon-html5-plain"></i></span>
-
+                                    <div class ="animatedParent col">
+                                            <div class="animated bounceInLeft">
+                                        <span><i class="devicon-html5-plain"></i></span>
+                                        <p>HTML5</p>
+    
+                                        </div>
                                     </div>
-                                </div>
-                                
-                                <div class ="col">
-                                    <span><i class="devicon-css3-plain"></i></span>                                   
-                                </div>
-                                <div id ="last2" class ="col">
-                                    <span><i class="devicon-bootstrap-plain"></i></span>
                                     
-                                </div>    
-                                <div id ="last2" class ="col">
-                                    <span><i class="devicon-nodejs-plain"></i></span>
-                                </div>
+                                    <div class ="col">
+                                        <span><i class="devicon-css3-plain"></i></span>
+                                        <p>CSS</p>                                   
+                                    </div>
+                                    <div  class ="col">
+                                        <span><i class="devicon-bootstrap-plain"></i></span>
+                                        <p>BootStrap</p>
+                                        
+                                    </div>    
+                                    <div class ="col">
+                                        <span><i class="devicon-jquery-plain"></i></span>
+                                        <p>jQuery</p>
+                                    </div>
                             </div>
 
-                <div class="animatedParent"> 
-                    <div class="animated bounceInRight">               
-                        <div class = "row">
-                            <div class ="col">
-                                    <span><i class="devicon-javascript-plain"></i></span>
+                            <div class="row">
+                                    <div class ="col-md-3 offset-md-3">
+                                         <span><i class="devicon-javascript-plain"></i></span>
+                                            <p>javaScript</p>                                   
+                                        </div>
+                                        <div  class ="col-md-3">
+                                            <span><i class="devicon-c-plain"></i></span>
+                                            <p>C Programming</p>    
+                                        </div> 
                             </div>
-                            <div class ="col">
-                                    <span><i class="devicon-jquery-plain"></i></span>
-                            </div>
-                            <div id ="last2" class ="col">
-                                    <span><i class="devicon-mysql-plain"></i></span>
-                            </div>    
-                            <div id ="last2" class ="col">
-                                    <span><i class="devicon-c-plain"></i></span>
-                            </div>
-                        </div>
                     </div>
-                </div>     
-                
-                <div class="animatedParent"> 
-                        <div class="animated fadeIn">
-                            <div class = "row">
-                                    <div id = "bottom2" class ="col">
-                                        <span><i class="devicon-visualstudio-plain"></i></span>
-                                    </div>
-                                    <div id = "bottom2" class ="col">
-                                        <span><i class="devicon-github-plain"></i></span>
-                                    </div>
+                  </div>
+                </div>
+                <div id="buttonColor" class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       Back End
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                            <div class="row">
+                                    <div class ="col-md-3 offset-md-3">
+                                            <span><i class="devicon-nodejs-plain"></i></span>
+                                            <p>nodeJs</p>                                   
+                                        </div>
+                                        <div  class ="col-md-3">
+                                             <span><i class="devicon-mysql-plain"></i></span>
+                                            <p>MySQL</p>    
+                                        </div> 
                             </div>
-                        </div>
-                </div>            
-            </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div id="buttonColor" class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Miscellaneous
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                            <div class="row">
+                                    <div class ="col-md-3 offset-md-3">
+                                            <span><i class="devicon-visualstudio-plain"></i></span>
+                                            <p>Visual Studios</p>                                   
+                                        </div>
+                                        <div  class ="col-md-3">
+                                                <span><i class="devicon-github-plain"></i></span>
+                                            <p>GitHub</p>    
+                                        </div> 
+                            </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
 
-        <div class="container-fluid" id="section12">  </div>
+    </div>
+
+
+
   
     <div class="container-fluid" id="projectSection">
             <a name="projects"></a>
 
-            <div class="row">
-                <div class="col">
-                    <h1>Projects</h1>
+
+            <h1>Projects </h1>
+            <div  class="row">
+                
+                    <div  id="projectFiles" class="col-md-4 offset-md-4">
+
+
          
-                aLorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui, aspernatur dignissimos asperiores consectetur distinctio a, laboriosam impedit molestias laudantium, voluptates consequuntur ea quis maiores cum veritatis rem nam porro.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veniam neque doloribus vitae modi deleniti optio, unde commodi, cupiditate voluptatum adipisci porro voluptatibus? Perspiciatis nisi, dolorum ducimus enim facilis doloribus?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam numquam aperiam incidunt doloribus necessitatibus amet maxime eius perferendis asperiores ratione, nam minus laudantium accusamus voluptates? Eveniet eos tenetur consectetur aspernatur.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi ad totam vel expedita aliquid nihil culpa quis voluptates facere! Nisi corrupti est rem tempore iure quam voluptatem accusamus a eligendi!
-                <br><br><br>
-                </div>
-                <div class="col">
-                        <div class = "container" id ="contactSection">
-                                <h1>Contact</h1>
-                                <form>
-                                    <a name = "contacts"></a>
-                                        <div class="form-group">
-                                          <label for="exampleInputName1">Full Name</label>
-                                          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter Full Name">
-                                        </div>
-                                        <div class="form-group">
-                                                <label for="exampleInputEmail1">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleFormControlTextarea1">Message</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
-                            </div>
-
-
-                </div> 
-
-
+                            aLorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui, aspernatur dignissimos asperiores consectetur distinctio a, laboriosam impedit molestias laudantium, voluptates consequuntur ea quis maiores cum veritatis rem nam porro.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veniam neque doloribus vitae modi deleniti optio, unde commodi, cupiditate voluptatum adipisci porro voluptatibus? Perspiciatis nisi, dolorum ducimus enim facilis doloribus?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam numquam aperiam incidunt doloribus necessitatibus amet maxime eius perferendis asperiores ratione, nam minus laudantium accusamus voluptates? Eveniet eos tenetur consectetur aspernatur.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi ad totam vel expedita aliquid nihil culpa quis voluptates facere! Nisi corrupti est rem tempore iure quam voluptatem accusamus a eligendi!
+                    </div>
+            
             </div>
         </div>
 
 
+<!--
+    <div class = "container" id ="contactSection">
+        <h1>Contact</h1>
+        <form>
+            <a name = "contacts"></a>
+                <div class="form-group">
+                  <label for="exampleInputName1">Full Name</label>
+                  <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+-->
+    <div class="container-fluid" id="quotes">  
+        <!-- This is for random quotes-->
+        <button id="quote-button">quote</button>
+    </div>
+
+    <div class="container-fluid" id="contactSection2">
+        <div class="row">
+            <div class="col-sm-12">
+                <span id="email">
+                    <p>
+                        <a id="emailLink" href="mailto:chriss.valenzeuala3@gmail.com" 
+                        target="_top">&#9993; chriss.valenzuela@gmail.com</a>
+                    </p>
+                    <p>
+                        <i>&copy; Copyright 2018</i>
+                    </p>
+                </span>
+            </div>
+        </div>
+    </div>
 
 
     <!-- jQuery-->
