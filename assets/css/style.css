@@ -7,7 +7,7 @@
   }
   #abouth1, #homeName, #sayhi{
     font-family: 'Source Code Pro', monospace;
-    font-size: 50px;
+    font-size: 25px;
     text-align:left;
   }
 
@@ -21,7 +21,7 @@
 
   }
   #section12{
-      opacity:.9;
+  
       /**
       background-image:url("../images/background1.jpg");
       background-repeat:none;
@@ -30,14 +30,20 @@
       **/
       background:white;
       position:relative;
-      height:25vh;
+      height:15vh;
       width: 100vw;
   }
 
   #quotes{
     background:white;
-    height:25vh;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    padding-top: 15vh;
+    text-align: center;
+    height:40vh;
   }
+
+  
 
   #section1{
 
@@ -52,12 +58,13 @@
 
 
 #aboutMeSection{
-    background:white;
+    background:#36454F;
     border: 1px solid black;
+    color:white;
 }
 
 #home{
-    opacity:.85;
+
     /**background-image: url("../images/background1.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -85,16 +92,19 @@
   #homeSection{
     background:white;
     color:black;
-    opacity: .85;
-    border-radius:1000px;
-    padding:100px;
+
+    border-radius:2000px;
+ 
+    padding: 50px;
+
     overflow:auto;
     border:1px solid;
   }
 
 
   #projectSection{
-    background:lightyellow;
+    background:#36454F;
+    color: white;
     border: 1px solid;
     font-family: 'Source Code Pro', monospace;
    }
@@ -125,7 +135,8 @@
 
 #homePic{
     height: 400px;
-    width: 300px;
+    width: 250px;
+    text-align:left;
 
 }
 
@@ -134,15 +145,24 @@
 }
 #logos{
     text-align:left;
-    size: 40px;;
+    size: 40px;
 
 }
 
 #buttonColor{
     text-align: center;
-    background:lightyellow;
+    color:white;
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
+
+}
+
+#collapseOne, #collapseTwo, #collapseThree{
+    background:#36454F;
+}
+
+#headingOne, #headingTwo, #headingThree{
+    background:rgb(119, 151, 173)
 
 }
 
@@ -153,11 +173,15 @@
 }
 #emailLink{
     font-family: 'Source Code Pro', monospace;
-    color:black;
+  
 }
 
+#copyright{
+    color: white;
+}
 #contactSection2{
-    background: lightyellow; 
+    background: #36454F; 
+
     padding: 25px;
     line-height: 15px;
     border:1px solid;
