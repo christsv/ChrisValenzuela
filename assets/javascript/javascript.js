@@ -1,6 +1,6 @@
 
 $.ajax({
-  url:"http://quotes.rest/qod.json",
+  url:"https://quotes.rest/qod.json",
   method: "GET"
 })
 .then(function(response){
