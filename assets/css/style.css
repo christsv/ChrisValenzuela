@@ -1,61 +1,14 @@
 
   /**********************************/
-
-  #aboutMeRows{
+#aboutMeRows{
       font-family:'Source Code Pro', monospace;
       padding:100px;
-  }
-  #abouth1, #homeName, #sayhi{
+}
+#abouth1, #homeName, #sayhi{
     font-family: 'Source Code Pro', monospace;
     font-size: 25px;
     text-align:left;
-  }
-
-  #fontish{
-    font-family: 'Source Code Pro', monospace;
-    font-size: 15px;
-  }
-
-  #sayhi{
-      text-align: left;
-
-  }
-  #section12{
-  
-      /**
-      background-image:url("../images/background1.jpg");
-      background-repeat:none;
-      background-attachment:fixed;
-      background-size:cover;
-      **/
-      background:white;
-      position:relative;
-      height:15vh;
-      width: 100vw;
-  }
-
-  #quotes{
-    background:white;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
-    padding-top: 15vh;
-    text-align: center;
-    height:40vh;
-  }
-
-  
-
-  #section1{
-
-    background-image:url("../images/background1.jpg");
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-attachment:fixed;
-    background-size:cover;
-    height:25vh;
-    width: 100vw;
 }
-
 
 #aboutMeSection{
     background:#36454F;
@@ -63,90 +16,9 @@
     color:white;
 }
 
-#home{
 
-    /**background-image: url("../images/background1.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment:fixed;**/
-    background:#36454F;
-    border: 1px solid;
-}
-
-  h1{
-      text-align:center;
-  }
-
-
-
-  #skillsSection{
-    border: 1px solid black;
-    background:white;
-    font-family: 'Source Code Pro', monospace;
-    padding:100px;
-
-
-  
-  }
-
-  #homeSection{
-    background:white;
-    color:black;
-
-    border-radius:2000px;
- 
-    padding: 50px;
-
-    overflow:auto;
-    border:1px solid;
-  }
-
-
-  #projectSection{
-    background:#36454F;
-    color: white;
-    border: 1px solid;
-    font-family: 'Source Code Pro', monospace;
-   }
- 
-   #projectFiles{
-    padding:50px;
-   }
-
-  #bottom2{
+#bottom2{
     text-align:center;
-  }
-  #last2{
-    text-align:right;
-  }
-
-  span{
-      font-size:75px;
-  }
-
-/* for the box testing*/
-.box{
-    width: 400px;
-    height: 400px;
-    background-color:red;
-    margin:150px auto;
-
-}
-
-#homePic{
-    height: 400px;
-    width: 250px;
-    text-align:left;
-
-}
-
-#symbols{
-    font-size:50px;
-}
-#logos{
-    text-align:left;
-    size: 40px;
-
 }
 
 #buttonColor{
@@ -161,24 +33,10 @@
     background:#36454F;
 }
 
-#headingOne, #headingTwo, #headingThree{
-    background:rgb(119, 151, 173)
-
-}
-
-#email{
-    font-family: 'Source Code Pro', monospace;
-    font-size:13px;
-    color:black;
-}
-#emailLink{
-    font-family: 'Source Code Pro', monospace;
-  
-}
-
 #copyright{
     color: white;
 }
+
 #contactSection2{
     background: #36454F; 
 
@@ -191,3 +49,134 @@
     margin:auto;
     max-width: 300px;
 }
+
+#email{
+    font-family: 'Source Code Pro', monospace;
+    font-size:13px;
+    color:black;
+}
+
+#emailLink{
+    font-family: 'Source Code Pro', monospace;
+  
+}
+
+#fontish{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+
+#headingOne, #headingTwo, #headingThree{
+    background:rgb(119, 151, 173)
+
+}
+
+#home{
+
+
+    background:#36454F;
+    border: 1px solid;
+}
+
+h1{
+      text-align:center;
+}
+
+
+#homeSection{
+    background:white;
+    color:black;
+    border-radius:2000px;
+    padding: 50px;
+    overflow:auto;
+    border:1px solid;
+}
+
+#homePic{
+    height: 400px;
+    width: 250px;
+    text-align:left;
+
+}
+
+#last2{
+    text-align:right;
+}
+
+#logos{
+    text-align:left;
+    size: 40px;
+}
+
+#navbar{
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+#projectSection{
+    background:#36454F;
+    color: white;
+    border: 1px solid;
+    font-family: 'Source Code Pro', monospace;
+   }
+ 
+#projectFiles{
+    padding:50px;
+}
+
+#quotes{
+    background:white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    padding-top: 15vh;
+    text-align: center;
+    height:40vh;
+}
+
+#sayhi{
+      text-align: left;
+
+}
+
+#section1{
+    background-image:url("../images/background1.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    background-size:cover;
+    height:25vh;
+    width: 100vw;
+}
+
+#skillsSection{
+    border: 1px solid black;
+    background:white;
+    font-family: 'Source Code Pro', monospace;
+    padding:100px;
+  
+}
+
+span{
+      font-size:75px;
+}
+
+#symbols{
+    font-size:50px;
+}
+
+#whiteSpace{
+      background:white;
+      position:relative;
+      height:15vh;
+      width: 100vw;
+}
+
+
+  
+
+
+
+
+
+
+
