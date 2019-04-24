@@ -112,14 +112,17 @@ h1{
     font-family: 'Source Code Pro', monospace;
     
 }
-
+#projects{
+    color:#36454F;
+    overflow:hidden;
+}
 #projectSection{
     background:#36454F;
     color: white;
     border: 1px solid;
     font-family: 'Source Code Pro', monospace;
    }
- 
+
 #projectFiles{
     padding:50px;
 }
@@ -146,6 +149,13 @@ h1{
     background-size:cover;
     height:25vh;
     width: 100vw;
+}
+
+#sleeve{
+    width:550px;
+    height:250px;
+    border: 3px solid black;
+  
 }
 
 #skillsSection{

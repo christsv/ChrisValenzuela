@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/animations.css">
 
 
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <!-- BootStrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     
@@ -44,16 +43,16 @@
                     <a class="navbar-brand" href="#">CV</a>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" id ="navBarHome" href="#home">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#aboutMe">About</a>
+                            <a class="nav-link" id = "navBarAbout" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
+                            <a class="nav-link" id="navBarSkills" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
+                            <a class="nav-link" id = "navBarProjects" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
                         <!-- the target blank allows it to open in another tab-->
@@ -74,13 +73,17 @@
                 <br><br><br>
                 <h1 id="homeName">Chris Valenzuela</h1>
                 <h1 id="homeName">Web Developer</h1>
-                <div id="sayhi"><a  href="#aboutMe">say hi!</a></div>
+                <div class ="animatedParent col">
+                    <div class="animated shake">
+                        <div id="sayhi"><a  href="#aboutMe">say hi!</a></div>
+                    </div>
+                </div>       
                 <hr>
                     <div>  
                         <h1 id="logos">
                             <a href="https://www.w3schools.com/html/" class="fa fa-facebook"></a>
                             <a href="https://www.instagram.com/chrissvalenzuela/" target="_blank" class="fa fa-instagram"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="https://www.linkedin.com/in/christopher-valenzuela-88991494/" class="fa fa-linkedin"></a>
                             <a href="https://wwww.github.com/christsv" class="fa fa-github"></a>          
                         </h1>         
                     </div>
@@ -95,23 +98,37 @@
 <!-- This is the White space for Style-->
     <div class="container-fluid"id="whiteSpace"></div>"
 
-    <a name="aboutMe"></a>
+    <a name="about"></a>
 <!-- About Me Section-->    
     <div class="container-fluid" id="aboutMeSection">      
         <div id="aboutMeRows" class="row">   
             <div class="col-md-9 offset-md-1"> 
-                <h1 id="abouth1"> Hello,</h1>
-                <p>
-                hello Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui mollitia vero repudiandae, saepe aut repellendus placeat voluptas quos sunt et voluptatem necessitatibus distinctio aperiam nam in aliquid debitis magni?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit, corporis blanditiis optio error consequuntur ipsum voluptatem iste placeat, ex, obcaecati id ad. Dicta reiciendis aut consequuntur aliquid ipsa hic!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus possimus labore, totam enim sint, cum laudantium, modi aliquid numquam provident delectus atque! Omnis maxime perspiciatis debitis, porro architecto similique ut!label
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam hic quidem ex porro magnam, fugiat laboriosam harum assumenda consequatur voluptates sapiente deserunt sed. Laboriosam quasi tempora ducimus quos numquam velit.
-                </p>                
-                <div class="aboutMeButtons">
-                    <a href="./assets/files/Chris Resume Web Developer pdf.pdf" target="_blank" class="md1-button md1-js-button">
-                    <i class="zmdi zmdi-download"></i>
-                    Download Resume
-                    </a>
+                <div class ="animatedParent col">
+                    <div class="animated fadeInDown">
+                        <h1 id="abouth1"> Hello,</h1>
+                    </div>
+                </div>
+                <div class ="animatedParent col">
+                    <div class="animated growIn">
+                        <p>
+                            I'm Chris Valenzuela, an aspiring web developer with a bachelors degree in Electrical Engineering at University of California,
+                            Irvine (UCI). I was previously an Electrical Engineer but after my last job ended - because my project finished - I felt that it was time
+                            to purse something truly interests me which was web development! As for my goals, it's to never run out of goals! I find passion in learning
+                            new concepts and implementing those concepts to real life applications. I guess you can say that im someone whos learned to enjoy the journey! Outside of web development, I enjoy playing
+                            basketball and im actually involved in a couple leagues, I enjoy playing Overwatch (a video game), im also a music connoisseur -- my music 
+                            has wide spectrum of genres from Country to Rock to Hip Hop to EDM to R&B and NeoSoul, etc...
+                        </p> 
+                    </div>      
+                </div>
+                <div class ="animatedParent col">
+                        <div class="animated fadeInUp">         
+                            <div class="aboutMeButtons">
+                                <a href="./assets/files/Chris Resume Web Developer pdf.pdf" target="_blank" class="md1-button md1-js-button">
+                                    <i class="zmdi zmdi-download"></i>
+                                    Download Resume
+                                </a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -139,11 +156,9 @@
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                             <div class = "row">
-                                    <div class ="animatedParent col">
-                                            <div class="animated bounceInLeft">
-                                                <span><i class="devicon-html5-plain colored"></i></span>
-                                                <p>HTML5</p>
-                                            </div>
+                                    <div class ="col">
+                                        <span><i class="devicon-html5-plain colored"></i></span>
+                                        <p>HTML5</p>
                                     </div>  
                                     <div class ="col">
                                         <span><i class="devicon-css3-plain colored"></i></span>
@@ -228,16 +243,55 @@
 
     <a name="projects"></a>
     <div class="container-fluid" id="projectSection">
-        <div  class="row">
-            <div  id="projectFiles" class="col-md-4 offset-md-4">
-                <h1>Projects </h1>
-                <p>
-                aLorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui, aspernatur dignissimos asperiores consectetur distinctio a, laboriosam impedit molestias laudantium, voluptates consequuntur ea quis maiores cum veritatis rem nam porro.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veniam neque doloribus vitae modi deleniti optio, unde commodi, cupiditate voluptatum adipisci porro voluptatibus? Perspiciatis nisi, dolorum ducimus enim facilis doloribus?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam numquam aperiam incidunt doloribus necessitatibus amet maxime eius perferendis asperiores ratione, nam minus laudantium accusamus voluptates? Eveniet eos tenetur consectetur aspernatur.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi ad totam vel expedita aliquid nihil culpa quis voluptates facere! Nisi corrupti est rem tempore iure quam voluptatem accusamus a eligendi!
-                </p>
+            <div class ="animatedParent col">
+                <div class="animated growIn">
+                        <h1>Projects </h1>
+                </div>
             </div>
+        <div  class="row">
+            <div  id="projectFiles" class="col-md-6">
+                <div class ="animatedParent">
+                    <div class="animated growIn">
+                        <div class="card" id = "projects">
+                            <div class="card-body">
+                                <img class="card-img-top" id = "sleeve" src="./assets/images/ssas sleeve.png">
+                                <h5 class="card-title">2017: Sports Sensor Arm Sleeve (SASS)</h5>
+                                <p class="card-text">
+                                    <br>
+                                    This project was created to improve a basketball player's shot "form." The user wears a sport sleeve
+                                    that instantly records the angle of their release with respect to the ground. It operates with two Arduino
+                                    Nano microcontrollers that recieve and process data from two accelerometers that are attached to the sleeve.
+                                    After several formulas, the calculated angle is displayed onto an LCD screen also attached to the sleeve! The link below 
+                                    goes more in depth with this project. Check it out!
+                                    <br>
+                                </p>
+                                <a href="https://sites.google.com/a/uci.edu/seniorproj-2016-17/team-05?fbclid=IwAR1FGL8ov_PJB303vULrD2UvFImms4MAc9xGSFdj_S0CODXW-4SsgBJl_tw"
+                                class = "btn btn-secondary" target="_blank">Check out our Website!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div  id="projectFiles" class="col-md-6">
+                    <div class ="animatedParent">
+                        <div class="animated growIn">
+                            <div class="card" id = "projects">
+                                <div class="card-body">
+                                <!---    <img class="card-img-top" id = "sleeve" src="./assets/images/ssas sleeve.png"> -->
+                                    <h5 class="card-title">(In progress) Random Song Generator</h5>
+                                    <p class="card-text">
+                                        This project is still in progres! The general idea of this project is use API calls to display 1 (specifically only 1) Random YouTube song!.
+                                        It's main purpose is to demenstrate my current skills as a programmer, but I also thought that its aesthetic is what would make it innovative.
+                                        There are many random song generators (i.e Pandora, Spotify Shuffle), but none are displayed in a way that is unique, simple yet effective and 
+                                        pleasant to the eye! Coming Soon!
+                                    </p>
+                                <!---    <a href="https://sites.google.com/a/uci.edu/seniorproj-2016-17/team-05?fbclid=IwAR1FGL8ov_PJB303vULrD2UvFImms4MAc9xGSFdj_S0CODXW-4SsgBJl_tw" 
+                                    class = "btn btn-secondary" target="_blank">Check out our Website!</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
         </div>
     </div>
 
@@ -247,11 +301,6 @@
         <div id="quotes" class = "container" >
             <div class="row">
                 <div  class = "col-md-8 offset-md-2">
-                </div>
- 
-            </div>
-            <div class = "row">
-                <div id = "author" class= "col-md-3 offset-md-9">
                 </div>
             </div>
         </div>

@@ -1,5 +1,8 @@
 
 $.ajax({
+  //this needs to be https so that is requesting from a secure site
+  // since christsv is https it cant request from an insecure site http so i changed it to https 
+  // this is called mixed content blocked
   url:"https://quotes.rest/qod.json",
   method: "GET"
 })
@@ -17,3 +20,15 @@ $.ajax({
   $("#quotes").append(fullAuthor);
 
 })
+
+// This is for the scroll animation
+
+$(".nav-link").click(function(){
+  var text = $(this).text();
+  var jumpText = text.toLowerCase().trim();
+  console.log(jumpText);
+  $('html,body').animate({
+    scrollTop: $("[name = " + jumpText + "]").offset().top},
+    'slow');
+});
+
