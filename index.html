@@ -81,10 +81,10 @@
                 <hr>
                     <div>  
                         <h1 id="logos">
-                            <a href="https://www.w3schools.com/html/" class="fa fa-facebook"></a>
+                            <a href="https://www.w3schools.com/html/" target="_blank" class="fa fa-facebook"></a>
                             <a href="https://www.instagram.com/chrissvalenzuela/" target="_blank" class="fa fa-instagram"></a>
-                            <a href="https://www.linkedin.com/in/christopher-valenzuela-88991494/" class="fa fa-linkedin"></a>
-                            <a href="https://wwww.github.com/christsv" class="fa fa-github"></a>          
+                            <a href="https://www.linkedin.com/in/christopher-valenzuela/" target="_blank" class="fa fa-linkedin"></a>
+                            <a href="https://wwww.github.com/christsv" target="_blank" class="fa fa-github"></a>          
                         </h1>         
                     </div>
             </div>
@@ -138,8 +138,6 @@
 <!-- Skills Section-->
     <a name="skills"></a>
     <div class="container-fluid" id="skillsSection">
-        
-        <div  id="skillsContainer" class="container">
             <h1>Skills</h1>
                 
         <div id="accordion">
@@ -199,13 +197,17 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
                         <div class="row">
-                            <div class ="col-md-3 offset-md-3">
+                            <div class ="col-md-3">
                                 <span><i class="devicon-nodejs-plain colored"></i></span>
                                 <p>nodeJs</p>                                   
                             </div>
                             <div  class ="col-md-3">
                                 <span><i class="devicon-mysql-plain colored"></i></span>
                                 <p>MySQL</p>    
+                            </div> 
+                            <div  class ="col-md-3">
+                                    <span><img id="firebase" src="./assets/images/firebase.svg"></span>
+                                    <p>FireBase</p>    
                             </div> 
                         </div>
                     </div>
@@ -236,13 +238,13 @@
                 </div>
             </div>
         </div>
-        </div>
     </div>
 
 
 
     <a name="projects"></a>
     <div class="container-fluid" id="projectSection">
+        <div class="containter">
             <div class ="animatedParent col">
                 <div class="animated growIn">
                         <h1>Projects </h1>
@@ -278,13 +280,17 @@
                             <div class="card" id = "projects">
                                 <div class="card-body">
                                 <!---    <img class="card-img-top" id = "sleeve" src="./assets/images/ssas sleeve.png"> -->
-                                    <h5 class="card-title">(In progress) Random Song Generator</h5>
-                                    <p class="card-text">
-                                        This project is still in progres! The general idea of this project is use API calls to display 1 (specifically only 1) Random YouTube song!.
-                                        It's main purpose is to demenstrate my current skills as a programmer, but I also thought that its aesthetic is what would make it innovative.
-                                        There are many random song generators (i.e Pandora, Spotify Shuffle), but none are displayed in a way that is unique, simple yet effective and 
-                                        pleasant to the eye! Coming Soon!
-                                    </p>
+                                <video class="card-img-top" id = "bird-video" type="video/mp4" src="./assets/images/Bird_Sheet.mov" controls autoplay></video>
+                                <h5 class="card-title">2018: Bird Scooter ID Tracker </h5>
+                                <p class="card-text">
+                                    <br>
+                                    I created this project for my previous work at Bird Ride Scooters! It was the prototype for the Electrical Engineering
+                                    Department that a couple coworkers and I were in charge of. Its an attendance sheet for the technicians to sign in the Scooters
+                                    that they repaired. It uses Firebase as a back-end database that store scooter information. It grabs the value stored in the console
+                                    and calculates the amount of work a technician did in total! 
+                                </p>
+                                <a href="https://christsv.github.io/BirdAttendanceSheet/"
+                                class = "btn btn-secondary" target="_blank">Check it out!</a>
                                 <!---    <a href="https://sites.google.com/a/uci.edu/seniorproj-2016-17/team-05?fbclid=IwAR1FGL8ov_PJB303vULrD2UvFImms4MAc9xGSFdj_S0CODXW-4SsgBJl_tw" 
                                     class = "btn btn-secondary" target="_blank">Check out our Website!</a> -->
                                 </div>
@@ -292,6 +298,29 @@
                         </div>
                     </div>    
                 </div>
+        </div>
+        <div class="row">
+            <div id="projectFiles" class="col-md-6">
+                <div class ="animatedParent">
+                    <div class="animated growIn">
+                        <div class="card" id="projects">
+                            <div class="card-body">
+                                <h5 class="card-title">(WIP) Random Song Generator</h5>
+                                <p class="card-text">
+                                    The general idea of this project is use API calls to display 1 (specifically only 1) Random YouTube song!.
+                                    It's main purpose is to demenstrate my current skills as a programmer, but I also thought that its aesthetic is what would make it innovative.
+                                    There are many random song generators (i.e Pandora, Spotify Shuffle), but none are displayed in a way that is unique, simple yet effective and 
+                                    pleasant to the eye! Coming Soon!
+                                </p>
+                            </div>
+
+                        </div>                        
+                    </div>
+                </div>        
+            </div>
+        </div>
+
+
         </div>
     </div>
 
@@ -316,7 +345,7 @@
                         target="_top">&#9993; chriss.valenzuela3@gmail.com</a>
                     </p>
                     <p>
-                        <i id="copyright">&copy; Copyright 2018</i>
+                        <i id="copyright">&copy; Copyright 2019</i>
                     </p>
                 </span>
             </div>

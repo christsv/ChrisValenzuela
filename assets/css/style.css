@@ -15,7 +15,11 @@
     border: 1px solid black;
     color:white;
 }
-
+#bird-video{
+    width:550px;
+    height:250px;
+    text-align: center;
+}
 
 #bottom2{
     text-align:center;
@@ -59,6 +63,11 @@
 #emailLink{
     font-family: 'Source Code Pro', monospace;
   
+}
+
+#firebase{
+    width:100px;
+    height:100px;
 }
 
 #fontish{
@@ -125,6 +134,7 @@ h1{
 
 #projectFiles{
     padding:50px;
+    
 }
 
 #quotes{
@@ -152,7 +162,7 @@ h1{
 }
 
 #sleeve{
-    width:550px;
+    width:475px;
     height:250px;
     border: 3px solid black;
   
