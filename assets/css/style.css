@@ -4,6 +4,7 @@
       font-family:'Source Code Pro', monospace;
       padding:100px;
 }
+
 #abouth1, #homeName, #sayhi{
     font-family: 'Source Code Pro', monospace;
     font-size: 25px;
@@ -15,6 +16,24 @@
     border: 1px solid black;
     color:white;
 }
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+{ 
+
+
+
+}
+
+
+
+
+
 #bird-video{
     width:550px;
     height:250px;
@@ -81,9 +100,8 @@
 }
 
 #home{
-
-
     background:#36454F;
+    padding:3%;
     border: 1px solid;
 }
 
@@ -93,34 +111,154 @@ h1{
 
 
 #homeSection{
+    /* height is related to max-height and padding */
+    max-width: 75%;
+    max-height:100%;
+    padding: 5%;
+
+    border-radius: 50%;
     background:white;
     color:black;
-    border-radius:2000px;
-    padding: 50px;
     overflow:auto;
     border:1px solid;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #homePic{
-    height: 400px;
-    width: 250px;
-    text-align:left;
+    max-height: 75%;
+    max-width: 75%;
 
+
+}
+
+#homeName{
+    text-align: center;
 }
 
 #last2{
     text-align:right;
 }
 
-#logos{
-    text-align:left;
-    size: 40px;
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px)
+{ 
+    #homeName{
+        font-size: 100%;
+    }
+    #sayhi{
+        font-size:100%;
+    }
+    #logos{
+        font-size:100%;
+    }
+    #homePic{
+        height: 60%;
+        width: 60%;
+    }
 }
 
-#navbar{
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ration:2) 
+{ 
+    #homeName{
+        font-size: 100%;
+    }
+    #sayhi{
+        font-size:100%;
+    }
+    #logos{
+        font-size:100%;
+    }
+    #homePic{
+        height: 60%;
+        width: 60%;
+    }
+}
+
+/* so navbar is flexed for the container but we have to "re-flex"
+    for the items since that is under another div */
+.Navbar{
     font-family: 'Source Code Pro', monospace;
+    display:flex;
+    background-color: white;
+    padding:16px;
+    color:black;
+   
+}
+.Navbar_Items{
+    display:flex;
+}
+.Navbar_Link{
+    padding-right: 8px;
+
+}
+.Navbar_Link_toggle{
+    display:none;
+
+}
+
+/* for smaller screen */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+{ 
+    .Navbar_Items,
+    .Navbar{
+        flex-direction: column;
+    }
+/* to remove real estate when screen is small */
+    .Navbar_Items{
+        display:none;
+    }
+    .Navbar_Link_toggle{
+        display:initial;
+        position: absolute;
+        cursor: pointer;
+        align-self: flex-end;
+    
+    }
+    .Navbar_ToggleShow{
+        display:flex;
+    }
     
 }
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape  for navbar */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and(-webkit-min-device-pixel-ratio:2)
+{ 
+    .Navbar_Items,
+    .Navbar{
+        flex-direction: column;
+    }
+/* to remove real estate when screen is small */
+    .Navbar_Items{
+        display:none;
+    }
+    .Navbar_Link_toggle{
+        display:initial;
+        position: absolute;
+        cursor: pointer;
+        align-self: flex-end;
+    
+    }
+    .Navbar_ToggleShow{
+        display:flex;
+    }
+    
+}
+
+
 #projects{
     color:#36454F;
     overflow:hidden;
@@ -147,7 +285,7 @@ h1{
 }
 
 #sayhi{
-      text-align: left;
+      text-align: center;
 
 }
 

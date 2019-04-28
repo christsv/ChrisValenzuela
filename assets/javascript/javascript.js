@@ -32,3 +32,10 @@ $(".nav-link").click(function(){
     'slow');
 });
 
+// this is to toggle navigation when on smaller devices
+function navToggle(){
+  const navs = document.querySelectorAll('.Navbar_Items');
+  navs.forEach(nav => nav.classList.toggle('Navbar_ToggleShow'));
+}
+
+document.querySelector('.Navbar_Link_toggle').addEventListener('click', navToggle);
