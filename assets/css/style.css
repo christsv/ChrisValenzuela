@@ -233,8 +233,8 @@ h1{
 
 /* Portrait and Landscape  for navbar */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+
+  and (max-width: 768px) 
 { 
     .Navbar_Items,
     .Navbar{
