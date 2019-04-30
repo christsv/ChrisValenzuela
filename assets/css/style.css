@@ -17,26 +17,9 @@
     color:white;
 }
 
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 667px) 
-{ 
-
-
-
-}
-
-
-
-
-
 #bird-video{
-    width:550px;
-    height:250px;
+    width:100%;
+    height:320px;
     text-align: center;
 }
 
@@ -163,9 +146,9 @@ h1{
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ration:2) 
+  and (device-width: 375px) 
+  and (device-height: 667px)
+  and (-webkit-device-pixel-ratio:2) 
 { 
     #homeName{
         font-size: 100%;
@@ -233,7 +216,7 @@ h1{
 
 /* Portrait and Landscape  for navbar */
 @media only screen 
-and (device-width: 375px) 
+  and (device-width: 375px) 
   and (device-height: 667px)
   and (-webkit-device-pixel-ratio:2) 
 { 
@@ -271,8 +254,18 @@ and (device-width: 375px)
    }
 
 #projectFiles{
-    padding:50px;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+  
+
     
+}
+#projectYoutube{
+    display:flex;
+    padding:10px;
+
+  
 }
 
 #quotes{
@@ -300,10 +293,11 @@ and (device-width: 375px)
 }
 
 #sleeve{
-    width:475px;
-    height:250px;
+    width:100%;
+    height:100%;
     border: 3px solid black;
-  
+    
+    
 }
 
 #skillsSection{
