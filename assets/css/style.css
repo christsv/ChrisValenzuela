@@ -165,6 +165,46 @@ h1{
     }
 }
 
+@media only screen 
+  and (device-width: 414px) 
+  and (device-height: 736px)
+  and (-webkit-device-pixel-ratio:3) 
+{ 
+    #homeName{
+        font-size: 100%;
+    }
+    #sayhi{
+        font-size:100%;
+    }
+    #logos{
+        font-size:100%;
+    }
+    #homePic{
+        height: 60%;
+        width: 60%;
+    }
+}
+
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 812px)
+  and (-webkit-device-pixel-ratio:3) 
+{ 
+    #homeName{
+        font-size: 100%;
+    }
+    #sayhi{
+        font-size:100%;
+    }
+    #logos{
+        font-size:100%;
+    }
+    #homePic{
+        height: 60%;
+        width: 60%;
+    }
+}
+
 /* so navbar is flexed for the container but we have to "re-flex"
     for the items since that is under another div */
 .Navbar{
@@ -241,7 +281,63 @@ h1{
     
 }
 
+/* ----------- iPhone 6+, 7+, 8+ ----------- */
 
+/* Portrait and Landscape  for navbar */
+@media only screen 
+  and (device-width: 414px) 
+  and (device-height: 736px)
+  and (-webkit-device-pixel-ratio:3) 
+{ 
+    .Navbar_Items,
+    .Navbar{
+        flex-direction: column;
+    }
+/* to remove real estate when screen is small */
+    .Navbar_Items{
+        display:none;
+    }
+    .Navbar_Link_toggle{
+        display:initial;
+        position: absolute;
+        cursor: pointer;
+        align-self: flex-end;
+    
+    }
+    .Navbar_ToggleShow{
+        display:flex;
+    }
+    
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape  for navbar */
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 812px)
+  and (-webkit-device-pixel-ratio:3) 
+{ 
+    .Navbar_Items,
+    .Navbar{
+        flex-direction: column;
+    }
+/* to remove real estate when screen is small */
+    .Navbar_Items{
+        display:none;
+    }
+    .Navbar_Link_toggle{
+        display:initial;
+        position: absolute;
+        cursor: pointer;
+        align-self: flex-end;
+    
+    }
+    .Navbar_ToggleShow{
+        display:flex;
+    }
+    
+}
 #projects{
     color:#36454F;
     overflow:hidden;
