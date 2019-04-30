@@ -28,15 +28,17 @@
 
 /* Portrait and Landscape  for navbar */
 @media only screen 
-  and (device-width: 375px) 
-  and (device-height: 667px)
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
   and (-webkit-device-pixel-ratio:2) 
 { 
     #bird-video{
-        height:200px;
+        height:210px;
     }
     
 }
+
+
 
 #bottom2{
     text-align:center;
@@ -161,8 +163,8 @@ h1{
 }
 
 @media only screen 
-  and (device-width: 375px) 
-  and (device-height: 667px)
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
   and (-webkit-device-pixel-ratio:2) 
 { 
     #homeName{
@@ -271,8 +273,8 @@ h1{
 
 /* Portrait and Landscape  for navbar */
 @media only screen 
-  and (device-width: 375px) 
-  and (device-height: 667px)
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
   and (-webkit-device-pixel-ratio:2) 
 { 
     .Navbar_Items,
