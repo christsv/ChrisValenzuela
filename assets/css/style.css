@@ -183,8 +183,8 @@ h1{
 }
 
 @media only screen 
-  and (device-width: 414px) 
-  and (device-height: 736px)
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
   and (-webkit-device-pixel-ratio:3) 
 { 
     #homeName{
@@ -203,8 +203,8 @@ h1{
 }
 
 @media only screen 
-  and (device-width: 375px) 
-  and (device-height: 812px)
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px)
   and (-webkit-device-pixel-ratio:3) 
 { 
     #homeName{
@@ -302,8 +302,8 @@ h1{
 
 /* Portrait and Landscape  for navbar */
 @media only screen 
-  and (device-width: 414px) 
-  and (device-height: 736px)
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
   and (-webkit-device-pixel-ratio:3) 
 { 
     .Navbar_Items,
@@ -331,8 +331,8 @@ h1{
 
 /* Portrait and Landscape  for navbar */
 @media only screen 
-  and (device-width: 375px) 
-  and (device-height: 812px)
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px)
   and (-webkit-device-pixel-ratio:3) 
 { 
     .Navbar_Items,
