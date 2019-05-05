@@ -1,8 +1,8 @@
+/*******************************************************/
 
-  /**********************************/
 #aboutMeRows{
-      font-family:'Source Code Pro', monospace;
-      padding:100px;
+    font-family:'Source Code Pro', monospace;
+    padding:100px;
 }
 
 #abouth1, #homeName, #sayhi{
@@ -83,7 +83,6 @@
 
 #contactSection2{
     background: #36454F; 
-
     padding: 25px;
     line-height: 15px;
     border:1px solid;
