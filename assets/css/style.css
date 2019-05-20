@@ -200,6 +200,10 @@ h1{
         height: 60%;
         width: 60%;
     }
+    #firebase{
+        width:100px;
+        height:100px;
+    }
 }
 
 @media only screen 
@@ -220,6 +224,10 @@ h1{
         height: 60%;
         width: 60%;
     }
+    #firebase{
+        width:100px;
+        height:100px;
+    }
 }
 
 @media only screen 
@@ -239,6 +247,10 @@ h1{
     #homePic{
         height: 60%;
         width: 60%;
+    }
+    #firebase{
+        width:100px;
+        height:100px;
     }
 }
 
